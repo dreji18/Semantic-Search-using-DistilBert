@@ -1,0 +1,7 @@
+streamlit
+numpy
+pandas
+xlrd == 1.2.0
+xlsxwriter
+sentence_transformers
+sklearn
