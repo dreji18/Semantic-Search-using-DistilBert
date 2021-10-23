@@ -1,6 +1,6 @@
 # Semantic-Search-using-DistilBert
 
-The notebook will help understand how to apply Semantic Search to any given data
+The notebook will help understand how to apply Semantic Search to any given data. It applies cosine similarity function to calculate the similar vectors and enable a search from the embeddings.
 
 This app is deployed using Streamlit https://share.streamlit.io/dreji18/semantic-search-using-distilbert/main/app.py
 
