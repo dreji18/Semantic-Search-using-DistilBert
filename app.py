@@ -16,7 +16,7 @@ model = SentenceTransformer('distilbert-base-nli-stsb-mean-tokens')
 
 def find_similar(vector_representation, all_representations, k=1):
     similarity_matrix = cosine_similarity(vector_representation, all_representations)
-    np.fill_diagonal(similarity_matrix, 0)
+    #np.fill_diagonal(similarity_matrix, 0)
     similarities = similarity_matrix[0]
     if k == 1:
         return [np.argmax(similarities)]
